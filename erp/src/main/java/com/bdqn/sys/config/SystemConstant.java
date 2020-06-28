@@ -57,6 +57,29 @@ public interface SystemConstant {
 
     String LOGIN_ACTION = "登录操作";
 
-
+    /**
+     * 删除成功
+     */
+    JSONResult DELETE_SUCCESS = new JSONResult(SystemConstant.OK,"删除成功");
+    /**
+     * 删除失败
+     */
+    JSONResult DELETE_ERROR = new JSONResult(SystemConstant.ERROR,"删除失败");
+    /**
+     * 添加成功
+     */
+    JSONResult ADD_SUCCESS = new JSONResult(SystemConstant.OK,"添加成功");
+    /**
+     * 添加失败
+     */
+    JSONResult ADD_ERROR = new JSONResult(SystemConstant.ERROR,"添加失败");
+    /**
+     * 修改成功
+     */
+    JSONResult UPDATE_SUCCESS = new JSONResult(SystemConstant.OK,"修改成功");
+    /**
+     * 修改失败
+     */
+    JSONResult UPDATE_ERROR = new JSONResult(SystemConstant.ERROR,"修改失败");
 
 }
